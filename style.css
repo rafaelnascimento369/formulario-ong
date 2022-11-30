@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, rgb(240,248,255), rgb(143,188,143) );
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(5, 162, 123, 0.775);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+legend{
+    padding: 10px;
+    text-align: center;
+}
+.inputUser{
+    width: 100%;
+}

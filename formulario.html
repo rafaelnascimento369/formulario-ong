@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Formulário ONG</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to left, rgb(240,248,255), rgb(143,188,143) );
+    }
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(5, 162, 123, 0.775);
+        padding: 15px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    legend{
+        padding: 10px;
+        text-align: center;
+    }
+    .inputUser{
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend> <b>Formulário</b> </legend>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade">Cidade</label>
+                    <div class="inputBox">
+                    <br><br>
+                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado">Estado</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone">Telefone</label>
+                    </div>
+                    <br><br>
+                </div>
+                <p>Quero Ser:</p>
+                    <input type="radio" name="tipo_doador" id="voluntario" value="voluntario" required>
+                    <label for="voluntario">Voluntario</label>
+                    <input type="radio" name="tipo_doador" id="patrocinador" value="patrocinador" required>
+                    <label for="patrocinador">Patrocinador</label>
+                    <input type="radio" name="tipo_doador" id="doador" value="doador" required>
+                    <label for="doador">Doador</label>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+
+        </form>
+    </div> 
+
+
+    
+    
+</body>
+</html>
